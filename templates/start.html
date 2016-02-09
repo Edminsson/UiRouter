@@ -1,0 +1,10 @@
+<div ui-view="header"></div>
+
+<div class="container mednavbar">
+    This is the start page
+    <ul>
+        <li ng-repeat="person in folk">{{person.namn}}</li>
+    </ul>
+</div>
+
+<div ui-view="footer"></div>
